@@ -76,4 +76,5 @@ export default {
     <>Admission at CUET {new Date().getFullYear()} © CUET Connect💐</>
   ),
   unstable_faviconGlyph: '👋',
+  defaultMenuCollapsed: true,
 }
