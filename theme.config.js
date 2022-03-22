@@ -1,7 +1,7 @@
 export default {
-  github: 'https://github.com/abusayed0206/cuetconnect-admission',
+  github: 'https://github.com/cuetconnect/admission',
   docsRepositoryBase:
-    'https://github.com/abusayed0206/cuetconnect-admission/blob/main',
+    'https://github.com/cuetconnect/admission/blob/main',
   titleSuffix: ' | Admission at CUET',
   logo: (
     <>
@@ -73,7 +73,8 @@ export default {
   footer: true,
   footerEditLink: 'Improve this page on GitHub',
   footerText: (
-    <>Admission at CUET {new Date().getFullYear()} © CUET Connect💐</>
+    <>©{new Date().getFullYear()} CUETCONNECT
+    <a href="https://vercel.com/?utm_source=cuetconnect&utm_campaign=oss" target="_blank"><img src="/powered-by-vercel.svg"></img></a></>
   ),
   unstable_faviconGlyph: '👋',
   defaultMenuCollapsed: true,
